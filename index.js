@@ -64,7 +64,7 @@ for(const i in objectCounter) {
 console.log();
 console.log('11:');
 const randomNumber = Math.floor(Math.random() * 101 - 1);
-for(let i = 0; i < 100; i++) {
+for(let i = 0; i < 101; i++) {
     if(i === randomNumber) {
         break;
     }
